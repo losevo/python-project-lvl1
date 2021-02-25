@@ -4,3 +4,5 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 
 [![Actions Status](https://github.com/losevo/python-project-lvl1/workflows/Super-Linter/badge.svg)](https://github.com/losevo/python-project-lvl1/actions)
+
+[![asciicast](https://asciinema.org/a/IS8FrOCPZo3BhQnO8T4EzdnuX.svg)](https://asciinema.org/a/IS8FrOCPZo3BhQnO8T4EzdnuX)
