@@ -8,8 +8,8 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = "3.8.5"
-prompt = "^0.4.1"
+python = "*"
+prompt = "0.4.1"
 
 [tool.poetry.dev-dependencies]
 flake8 = "3.8.4"
