@@ -16,8 +16,8 @@ def calc():
     print('What is the result of the expression?')
     count = 1
     while count <= 3:
-        first_number = number_random()
-        second_number = number_random()
+        first_number = number_random(1, 100)
+        second_number = number_random(1, 100)
         sign = operator_random()
         result = op[sign](first_number, second_number)
         print('Question:', str(first_number), sign, str(second_number), sep=' ')

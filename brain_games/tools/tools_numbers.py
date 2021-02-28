@@ -3,9 +3,7 @@
 import random
 
 
-def number_random():
-    start = 1
-    finish = 100
+def number_random(start, finish):
     number = random.randint(start, finish)
     return number
 

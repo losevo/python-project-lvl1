@@ -10,7 +10,7 @@ def even():
     print('Answer "yes" if the number is even, otherwise answer "no".')
     count = 1
     while count <= 3:
-        num = number_random()
+        num = number_random(1, 100)
         print('Question: ' + str(num))
         answer = prompt.string('Answer: ')
         if num % 2 == 0:

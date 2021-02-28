@@ -10,8 +10,8 @@ def gcd():
     print('Find the greatest common divisor of given numbers.')
     count = 1
     while count <= 3:
-        first_number = number_random()
-        second_number = number_random()
+        first_number = number_random(1, 100)
+        second_number = number_random(1, 100)
         print('Question:', first_number, second_number, sep=' ')
         answer = prompt.string('Answer: ')
         while first_number != second_number:
