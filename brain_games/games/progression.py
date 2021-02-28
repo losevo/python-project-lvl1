@@ -25,7 +25,7 @@ def progression():
             count_pr += 1
         print('Question: ' + start_pr)
         answer = prompt.string('Answer: ')
-        if str(result) == answer:
+        if str(result) == answer or answer == 'Correct!':
             print('Correct!')
             count += 1
             if count == 4:
