@@ -15,7 +15,7 @@ def progression():
         stop_progression = number_random(6, 10)
         count_pr = 1
         start_pr = str(start_number)
-        hidden_count = number_random(1, stop_progression - 1)
+        hidden_count = number_random(1, stop_progression - 6)
         while count_pr < stop_progression:
             if count_pr == hidden_count:
                 start_pr = str(start_pr) + ' .. '
