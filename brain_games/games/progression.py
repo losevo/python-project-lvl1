@@ -18,7 +18,7 @@ def progression():
         hidden_count = number_random(1, stop_progression - 5)
         while count_pr < stop_progression:
             if count_pr == hidden_count:
-                start_pr = str(start_pr) + ' .. '
+                start_pr = str(start_pr) + ' ..'
                 result = start_number + diff * count_pr
             else:
                 start_pr = start_pr + ' ' + str(start_number + diff * count_pr)
